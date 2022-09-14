@@ -1,4 +1,4 @@
-# Python 與自動化測試的敲門磚_Day01
+# Python 與自動化測試的敲門磚_Day01_內容簡介
 
 ## 一、內容簡介
 本次鐵人賽撰寫的目標為 python 與自動化測試，製作過程預計的時程如下
@@ -8,8 +8,8 @@
 | 簡介       | day 01      |
 | Pytest   | day 02 ~ 10 |
 | TDD      | day 11 ~ 12 |
-| Selenium | day 13 ~ 16 |
-| Appium   | day 17 ~ 21 |
+| Selenium | day 13 ~ 17 |
+| Appium   | day 18 ~ 21 |
 | CI/CD    | day 22 ~ 26 |
 | Jenkins  | day 27 ~ 29 |
 | 結語       | day 30      |
