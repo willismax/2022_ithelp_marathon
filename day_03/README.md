@@ -98,7 +98,7 @@ pytest 的執行參數百百種，下面列舉兩項比較常用的作為代表
    - 範例：`pytest -s .\day_03\test_demo.py`
      ![圖片](img/cmd_s_v.jpg)
 
-除了上面提到的兩個執行參數之外，可以參考一下 [這個網址]() 裡面有提供更多的功能可以使用，
+除了上面提到的兩個執行參數之外，可以參考一下 [官方文檔](https://docs.pytest.org/en/7.1.x/reference/reference.html#command-line-flags) 裡面有提供更多的功能可以使用，
 
 ## 三、內容預告
 在硬體測試當中，時常會被主管要求產出測試報告，明天我們會教大家如何利用 pytest 本身的參數以及第三方套件來產出報告
