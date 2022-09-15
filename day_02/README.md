@@ -44,4 +44,7 @@ class TestClassDemo:
         assert 2 + 2 == 4
 ```
 
-以上就是快速建立 pytest test case 的方式，下個章節我們會教學如何執行 pytest
+以上就是快速建立 pytest test case 的方式，明天我們會教學如何執行 pytest
+
+## 三、內容預告
+明天我們會教大家如何利用 Pycharm (包含設定 pytest 執行) 以及 Terminal 執行 pytest 來進行測試
