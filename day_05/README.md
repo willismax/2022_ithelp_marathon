@@ -46,6 +46,8 @@
 ### (四)、檢查是否安裝成功
 打開 cmd 視窗並輸入 `allure --version`，有出現 allure 的版本號碼就代表安裝成功了
 
+![圖片](img/version.jpg)
+
 ## 二、程式碼撰寫
 講了這麼多終於要來寫程式了，不過在這之前，我們還是得在虛擬環境安裝相關的套件
 
@@ -88,5 +90,5 @@ def test_export_report():
 
 ## 三、內容預告
 今天教大家如何使用 allure 進行報表的生成了，當然 allure 裡面還有提供了更多的設定，可以使產出的報表更加精美，
-可以多多參考 [官方文件]() 來進行學習，明天我們就會回歸 pytest 主體，教大家如何使用 setup、teardown 來讓我們的測試
+可以多多參考 [官方文件](https://docs.qameta.io/allure-report/#_python) 來進行學習，明天我們就會回歸 pytest 主體，教大家如何使用 setup、teardown 來讓我們的測試
 更加快速方便
