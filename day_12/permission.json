@@ -1,0 +1,10 @@
+{
+  "RD": [
+    "select",
+    "update",
+    "delete"
+  ],
+  "costumer": [
+    "select"
+  ]
+}
