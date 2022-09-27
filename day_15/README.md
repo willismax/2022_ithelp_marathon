@@ -78,7 +78,7 @@ def create_options() -> Options:
 ```
 
 完整程式碼：
-透過在 driver 中添加 options 參數，我們即可為 driver 做一些
+透過在 driver 中添加 options 參數，我們即可為 driver 做一些瀏覽器的設定
 ```python
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
