@@ -24,8 +24,7 @@ def make_chrome_driver() -> Chrome:
 
     driver = Chrome(ChromeDriverManager().install(),
                     options=options)
-    yield driver
-    driver.quit()
+    return driver
 ```
 
 ## 二、使用 CSS_SELECTOR 定位
