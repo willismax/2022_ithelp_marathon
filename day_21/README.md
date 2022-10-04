@@ -7,3 +7,19 @@
 CI/CD 其實是指兩個部分，分別是 Continuous Integration (持續整合) 以及 Continuous Deployment (持續部屬)，
 下面我們就分別來進行說明。
 
+- CI
+
+- CD
+
+## 二、CI/CD 好處
+
+## 三、CICD 常用工具
+- GitLab
+  
+- GitHub
+- Jenkins
+
+## 四、內容預告
+今天我們簡單介紹了 CI/CD 是什麼，就自動化測試這一塊來說，是比較著重再 CI (持續整合) 這塊，CD 的部分就牽扯到部屬的部分了，因此後面的進行 demo 的方向都會以 CI 的方向寫。
+
+明天我們會花一天的時間介紹 .yaml 檔案該如何撰寫，它是用來控制我們在進行 CI/CD 時的腳本語言，CI/CD 會依照此檔案內的內容依序進行處理。
