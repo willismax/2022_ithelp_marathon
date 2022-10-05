@@ -1,4 +1,4 @@
-# Python 與自動化測試的敲門磚_Day23_Github Actions yaml 介紹
+# Python 與自動化測試的敲門磚_Day23_GitHub Actions yaml 介紹
 
 每天的專案會同步到 github 上，可以前往 [這個網址](https://github.com/nickchen1998/2022_ithelp_marathon)
 如果對於專案有興趣或是想討論一些問題，歡迎留言 OR 來信討論，信箱為：nickchen1998@gmail.com
