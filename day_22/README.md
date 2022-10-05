@@ -111,3 +111,13 @@
   
 ## 三、察看結果
 修改完成後，我們就可以將整個專案 push 到 Github 上，這個時候我們就可以回到剛剛的 "Actions" 頁面察看結果了
+
+下圖中我們可以看到 Acitons 這邊多了一個任務，任務名稱會使用剛剛的 commit message 命名
+![img](img/commit_yaml.jpg)
+
+點進去該任務後就可以查看 pytest 的執行結果了
+![img](img/test_success.jpg)
+
+## 四、內容預告
+今天我們簡單介紹了該如何使用 Github Actions，過程中有請各位編輯 python-app.yml 這個檔案，
+明天我們直接藉由這個檔案來介紹，該如何編輯我們的工作流程
