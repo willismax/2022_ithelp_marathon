@@ -1,0 +1,10 @@
+stages:
+  - test
+
+execute-test:
+  stage: test
+  script:
+    - pip3 install pytest
+    - pytest -s -v ./day_25/test_demo.py
+  tags:
+    - nickchen1998_ithelp_2022_marathon
