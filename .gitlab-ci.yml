@@ -3,8 +3,13 @@ stages:
 
 execute-test:
   stage: test
+
+  services:
+    - name: selenium/standalone-chrome
+      alias: CICD_Selenium
+
   script:
     - pip3 install pytest
-    - pytest -s -v ./day_25/test_demo.py
+    - pytest -s -v ./day_26/test_demo.py
   tags:
     - nickchen1998_ithelp_2022_marathon
