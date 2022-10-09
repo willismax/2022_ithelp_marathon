@@ -1,12 +1,13 @@
 import sys
 import pytest
+from typing import Union
 from selenium.webdriver import Remote, Chrome
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 
 @pytest.fixture(name="driver")
-def driver_fixture() -> Remote:
+def driver_fixture() -> Union[Remote, Chrome]:
     options = Options()
     options.add_argument("--headless")
     options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "

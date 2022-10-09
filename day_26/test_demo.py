@@ -1,7 +1,8 @@
-from selenium.webdriver import Remote
+from selenium.webdriver import Remote, Chrome
+from typing import Union
 
 
-def test_current_url(driver: Remote):
+def test_current_url(driver: Union[Remote, Chrome]):
     driver.get("https://ithelp.ithome.com.tw/")
 
     correct_url = "https://ithelp.ithome.com.tw/"
