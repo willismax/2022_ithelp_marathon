@@ -9,7 +9,7 @@ execute-test:
       alias: CICD_Selenium
 
   script:
-    - pip3 install pytest
+    - pip3 install -r ./requirements.txt
     - pytest -s -v ./day_26/test_demo.py
   tags:
     - nickchen1998_ithelp_2022_marathon
