@@ -20,6 +20,7 @@ bs4 = "^0.0.1"
 lxml = "^4.9.1"
 selenium = "^4.4.3"
 webdriver-manager = "^3.8.3"
+pytest-mock = "^3.10.0"
 
 [tool.poetry.dev-dependencies]
 
