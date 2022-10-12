@@ -21,6 +21,10 @@ lxml = "^4.9.1"
 selenium = "^4.4.3"
 webdriver-manager = "^3.8.3"
 pytest-mock = "^3.10.0"
+pytest-cov = "^4.0.0"
+pytest-xdist = "^2.5.0"
+pytest-sugar = "^0.9.5"
+pytest-random-order = "^1.0.4"
 
 [tool.poetry.dev-dependencies]
 
